@@ -314,3 +314,63 @@ section:target p{
     
 }
     /*Ofertas*/
+
+    /*CONTACTO*/
+    .contenedor-contacto{
+        display: flex;
+        padding: 15px;
+    }
+    
+    .formulario{
+        display: inline-flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 5px;
+    }
+    .nombre{
+        font-size: 10px;
+        text-align: center;
+        line-height: 25px;
+        padding:  20px 20px 20px 20px;
+        margin: 20px 40px;
+        width: 50px;
+        height: 30px;
+    }
+    .email{
+        font-size: 10px;
+        text-align: center;
+        line-height: 25px;
+        padding:  20px 20px 20px 20px;
+        margin: 20px 40px;
+        width: 50px;
+        height: 30px;
+    }
+    .asunto{
+        font-size: 10px;
+        text-align: center;
+        line-height: 25px;
+        padding:  20px 20px 20px 20px;
+        margin: 20px 40px;
+        width: 50px;
+        height: 30px;
+    }
+    .caja{
+        flex-direction: column;
+        
+    }
+    div textarea{
+        box-sizing:content-box;
+        width: 100%;
+
+        line-height: 60px;
+    }
+    .enviar{
+        color: goldenrod;
+    }
+    div button{
+        padding: 5px;
+        box-sizing: content-box;
+        height: 30px;
+        width: 50px;
+    }
+    /*CONTACTO*/
