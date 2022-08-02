@@ -149,7 +149,7 @@ h5{
     font-family: 'Cormorant SC', serif;
 }
 
-/*.boton{
+.boton{
     padding: 5px 15px;
     background-color: rgb(255, 255, 255);
     border-radius: 30px;
@@ -157,11 +157,11 @@ h5{
     color: rgb(0, 0, 0);
 }
     /*modificador*/
-    /*.boton:hover{
-        height: 100px;
-        background-color: red;
-        transition: all 1s;
-    }*/
+    .boton:hover{
+        height: 50px;
+        background-color: goldenrod;
+        transition: all 0.7s;
+    }
 
 #footer{
     width: 100%;
@@ -367,10 +367,16 @@ section:target p{
     .enviar{
         color: goldenrod;
     }
-    div button{
-        padding: 5px;
-        box-sizing: content-box;
-        height: 30px;
-        width: 50px;
+    #boton{
+        padding: 5px 15px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 30px;
+        text-decoration: none;
     }
+    #boton:hover{
+        height: 50px;
+        background-color: goldenrod;
+        transition: all 0.7s;
+    }
+
     /*CONTACTO*/
