@@ -229,7 +229,7 @@ section:target p{
     font-family: 'Times New Roman', Times, serif;
     font-size: 25px;
     text-transform: uppercase;
-
+    
     width: 90%;
     height: 600px;
     margin: 40px auto;  
@@ -243,8 +243,9 @@ section:target p{
     /*grid-template-rows: repeat(1,1fr); /*establece tamaño en eje vertical*/
     grid-template-areas:
     "header header header"
-    "nav   main   aside" 
-    "nav   main   aside" 
+    "nav   nav   nav" 
+    "aside  aside   aside"
+    "main  main  main"
     "footer footer footer"
     ;
     gap: 10px;
@@ -257,30 +258,29 @@ section:target p{
     align-items: center;
 }
 .item1{
-    background-color: gold;
-    /*grid-column: 1/4;*/
+    background-color: rgb(255, 255, 255);
+    /*grid-column: 1/1;*/
     grid-area: header;
 }
 .item2{
-    background-color: blue;
-    /*grid-column: 1/2;
-    grid-row: 2/4;*/
+    background-color: rgb(255, 255, 255);
+    /*grid-column: 1/2;*/
     grid-area: nav;
 }
 .item3{
-    background-color: rosybrown;
+    background-color:rgb(255, 255, 255);
     /*grid-column: 2/3;
     grid-row: 2/4;*/
     grid-area: main;
 }
 .item4{
-    background-color: snow;
+    background-color: rgb(255, 255, 255);
     /*grid-column: 3/4;
     grid-row: 2/4;*/
     grid-area: aside;
 }
 .item5{
-    background-color: darkolivegreen;
+    background-color: rgb(255, 255, 255);
     /*grid-column: 1/4;*/
     grid-area: footer;
 }
