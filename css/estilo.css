@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
 }
-/*INICIO*/
+/*INDEX*/
 body{
     background-color: antiquewhite;
     
@@ -11,7 +11,6 @@ body{
 .cabecera{
     margin-bottom:10px;
     background: radial-gradient(circle, rgba(0,212,255,1) 19%, rgba(9,9,121,1) 82%, rgba(2,0,36,1) 100%);
-    
 }
 .logo{
     width: 100px;
@@ -20,6 +19,7 @@ body{
     border-radius: 1rem;
     text-align: center;
     display: inline-block;
+    
 }
 .eslogan{
     font-family: 'Cormorant SC', serif;
@@ -29,7 +29,7 @@ body{
     display: inline-block;
     color: goldenrod;
 }
-ul{
+/*ul{
     text-align: center;
 }
 nav ul li {
@@ -41,8 +41,8 @@ nav ul li {
     border: solid 5px ;
     font-family: 'Cormorant SC', serif;
     font-size: 16px;
-}
-.Bloque-contenedor{
+}*/
+/*.Bloque-contenedor{
     display: flex;
     justify-content: center;
 }
@@ -60,17 +60,15 @@ nav ul li {
 .texto{
     color: rgb(7, 0, 0);
     
-}
-/*SLIDER*/
+}*/
+
+/*SLIDER
 .container{
     margin: auto;
     width: 800px;
     padding: 30px;
 }  
-ul, li {
-    padding: 0;
-    margin: 0;
-    list-style: none;
+
 }
 
 ul.slider{
@@ -130,8 +128,11 @@ ul.slider li:target {
 	margin: 5px;
 }
 /*Slider*/
-
-
+ul, li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
 h1{
     text-align: center; 
 }
@@ -163,7 +164,7 @@ h5{
         transition: all 0.7s;
     }
 
-#footer{
+/*#footer{
     width: 100%;
     background: radial-gradient(circle, rgba(0,212,255,1) 19%, rgba(9,9,121,1) 82%, rgba(2,0,36,1) 100%);
     color: goldenrod;
@@ -177,8 +178,10 @@ footer article p{
     text-align: center;
     color: goldenrod;
     font-size: 25px;
-}
-/*CATEGORIAS*/
+}*/
+/*INDEX*/
+
+/*CATEGORIAS
 header section article h1{
     padding: 25px;
 }
@@ -212,7 +215,15 @@ section:target p{
     padding: 10px;
     
 }
-/*CATEGORIAS*/
+CATEGORIAS*/
+.barra-nav{
+    background-color: goldenrod;
+    border-radius: 1rem;
+    padding: 5px;
+    border: solid 5px;
+    font-size: 16px;
+}
+
 
 /*NOSOTROS*/
 .nosotros{
@@ -224,23 +235,16 @@ section:target p{
 /*NOSOTROS*/
 
 /*Ofertas*/
-
 .grid-container{
     font-family: 'Times New Roman', Times, serif;
     font-size: 25px;
     text-transform: uppercase;
-    
     width: 90%;
     height: 600px;
     margin: 40px auto;  
     border: 1px groove black;
-
     display: grid;
-    /*grid-template-columns: 1fr 2fr 3fr;*/
     grid-template-columns: 100px 200px;
-    /*grid-template-columns: repeat(1,1fr);*/ /*establece tamaño en eje horizontal*/
-
-    /*grid-template-rows: repeat(1,1fr); /*establece tamaño en eje vertical*/
     grid-template-areas:
     "header header header"
     "nav   nav   nav" 
@@ -250,7 +254,6 @@ section:target p{
     ;
     gap: 10px;
 }
-
 .items{
     font-size: 18px;
     display: flex;
@@ -259,33 +262,24 @@ section:target p{
 }
 .item1{
     background-color: rgb(255, 255, 255);
-    /*grid-column: 1/1;*/
     grid-area: header;
 }
 .item2{
     background-color: rgb(255, 255, 255);
-    /*grid-column: 1/2;*/
     grid-area: nav;
 }
 .item3{
     background-color:rgb(255, 255, 255);
-    /*grid-column: 2/3;
-    grid-row: 2/4;*/
     grid-area: main;
 }
 .item4{
     background-color: rgb(255, 255, 255);
-    /*grid-column: 3/4;
-    grid-row: 2/4;*/
     grid-area: aside;
 }
 .item5{
     background-color: rgb(255, 255, 255);
-    /*grid-column: 1/4;*/
     grid-area: footer;
 }
-
-/**/
 @media (max-width: 768px){
     .grid-container{
         font-family: 'Times New Roman', Times, serif;
@@ -296,8 +290,6 @@ section:target p{
         margin: 40px auto;
         border: 1px groove black;
         display: grid;
-        /*grid-template-columns: 1fr 2fr 3fr;*/
-        /*grid-template-columns: 100px 200px;*/
         grid-template-columns: 100%; /*establece tamaño en eje horizontal*/
         grid-template-rows: repeat(4, auto); /*establece tamaño en eje vertical*/
         grid-template-areas:
@@ -311,11 +303,10 @@ section:target p{
     .item2{
         display: none;
     }
-    
 }
     /*Ofertas*/
 
-    /*CONTACTO*/
+    /*CONTACTO
     .contenedor-contacto{
         display: flex;
         padding: 15px;
@@ -378,5 +369,4 @@ section:target p{
         background-color: goldenrod;
         transition: all 0.7s;
     }
-
     /*CONTACTO*/
