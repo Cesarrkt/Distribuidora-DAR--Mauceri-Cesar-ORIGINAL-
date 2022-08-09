@@ -16,7 +16,7 @@
             <img class="logo" src="../imagenes/Captura.PNG" alt="Logo">
             <input class="buscador" type="search" name="buscar-producto" placeholder="Pan rallado, caldos,...">
 
-            <button class="boton">Buscar</button>
+            <button type="button" class="boton">Buscar</button>
             <p class="eslogan">Dar es dar!</p>
         </div>
         <ul class="nav justify-content-center barra-nav">
@@ -59,22 +59,61 @@
                 </form>
             </div>
         </div>-->
-        <p>Envianos un mail en caso de que quiera recibir mas informacion sobre nuestra empresa o en caso de que quiera realizar un pedido. En un plazo de 48hs responderemos a su solicitud.</p>
-        <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Email</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-        </div>
-        <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">Consulta o Pedido</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-        </div>
-        <div class="d-grid gap-2">
-            <button class="btn btn-primary" type="button">ENVIAR</button>
+    
+        <h2>Tu consulta o pedido.</h2></br>
+        <div id="contact-us">
+            <div class="container">
+                <div class="row">
+                    <div class="product-item col-md-12">
+                        <div class="row">
+                            <div class="col-md-8">  
+                                <div class="message-form">
+                                    <form id="ContactForm" name="contactform" action="send_email.php" method="post" class="send-message">
+                                        <div class="row">
+                                        <div class="name col-md-4">
+                                            <input type="text" name="name" id="name" placeholder="Nombre" />
+                                        </div>
+                                        <div class="email col-md-4">
+                                            <input type="text" name="email" id="email" placeholder="Email" />
+                                        </div>
+                                        <div class="subject col-md-4">
+                                            <input type="text" name="subject" id="subject" placeholder="Asunto" />
+                                        </div>
+                                        </div>
+                                        <div class="row">        
+                                            <div class="text col-md-12">
+                                                <textarea class="text" placeholder="Consulta o Pedido"></textarea>
+                                            </div>   
+                                        </div>                              
+                                        <div class="send">
+                                            <button type="button" class="boton"> Enviar</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="info">
+                            <div class="col-md-8">
+                                <br class="info">
+                                    <h4 class="footer-title">Datos útiles</h4>
+                                    <br>Nos encontramos en Berazategui.</br>
+                                        Provincia de Buenos Aires.</br> 
+                                    </p>
+                                    <ul>
+                                        <li> <a href="tel:+5491123613311"><i class="fa fa-phone"></i>011 236 133 11</a></li>
+                                        <li><i class="fa fa-map-marker lr-margin"></i>Berazategui- Buenos Aires.</li>
+                                        <li><i class="fa fa-envelope"></i><a href="#">maucericesar7@gmail.com</a></li>
+                                    </ul>
+                                </div>
+                            </div>     
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
     </header>
 </body>
-</header>
 <!--Footer-->
 <div class="card text-center">
     <div class="card-header">

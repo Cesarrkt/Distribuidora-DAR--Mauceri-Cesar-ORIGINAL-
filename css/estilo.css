@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cuprum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@600&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -136,6 +137,12 @@ ul, li {
 }
 h1{
     text-align: center; 
+    font-family: 'Cormorant SC', serif;
+}
+h2{
+    text-align: center; 
+    font-family: 'Cormorant SC', serif;
+
 }
 h3{
     text-align: center;
@@ -157,6 +164,7 @@ h5{
     border-radius: 30px;
     text-decoration: none;
     color: rgb(0, 0, 0);
+    
 }
     /*modificador*/
     .boton:hover{
@@ -240,8 +248,8 @@ CATEGORIAS*/
     font-family: 'Times New Roman', Times, serif;
     font-size: 25px;
     text-transform: uppercase;
-    width: 90%;
-    height: 600px;
+    width: 40%;
+    height: 700px;
     margin: 40px auto;  
     border: 1px groove black;
     display: grid;
@@ -260,6 +268,7 @@ CATEGORIAS*/
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 5px solid;
 }
 .item1{
     background-color: rgb(255, 255, 255);
@@ -286,7 +295,7 @@ CATEGORIAS*/
         font-family: 'Times New Roman', Times, serif;
         font-size: 25px;
         text-transform: uppercase;
-        width: 90%;
+       
         height: 600px;
         margin: 40px auto;
         border: 1px groove black;
@@ -307,76 +316,20 @@ CATEGORIAS*/
 }
     /*Ofertas*/
 
-    /*CONTACTO
-
-    .contenedor-contacto{
-        display: flex;
-        padding: 15px;
-    }
-    
-    .formulario{
-        display: inline-flex;
-        flex-direction: row;
-        justify-content: center;
-        padding: 5px;
-    }
-    .nombre{
-        font-size: 10px;
-        text-align: center;
-        line-height: 25px;
-        padding:  20px 20px 20px 20px;
-        margin: 20px 40px;
-        width: 50px;
-        height: 30px;
-    }
-    .email{
-        font-size: 10px;
-        text-align: center;
-        line-height: 25px;
-        padding:  20px 20px 20px 20px;
-        margin: 20px 40px;
-        width: 50px;
-        height: 30px;
-    }
-    .asunto{
-        font-size: 10px;
-        text-align: center;
-        line-height: 25px;
-        padding:  20px 20px 20px 20px;
-        margin: 20px 40px;
-        width: 50px;
-        height: 30px;
-    }
-    .caja{
-        flex-direction: column;
-        
-    }
-    div textarea{
-        box-sizing:content-box;
-        width: 100%;
-
-        line-height: 60px;
-    }
-    .enviar{
-        color: goldenrod;
-    }
-    #boton{
-        padding: 5px 15px;
-        background-color: rgb(255, 255, 255);
-        border-radius: 30px;
-        text-decoration: none;
-    }
-    #boton:hover{
-        height: 50px;
-        background-color: goldenrod;
-        transition: all 0.7s;
-    }
-    /*CONTACTO*/
 
     p{
-        font-family:'Cuprum', sans-serif;
-        
+        font-family: 'Cormorant SC', serif;
+        font-size: 20px;
         padding: 10px; 
         box-sizing: content-box;
-        margin: 10px;
+        margin: 5px;
+    }
+    .row{
+        margin: 5px;
+        justify-content: space-around;
+        
+    }
+    .text{
+        width: 90%;
+
     }
