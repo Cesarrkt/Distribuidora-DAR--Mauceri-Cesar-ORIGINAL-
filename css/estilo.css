@@ -295,7 +295,7 @@ CATEGORIAS*/
         font-family: 'Times New Roman', Times, serif;
         font-size: 25px;
         text-transform: uppercase;
-       
+        width: 90%;
         height: 600px;
         margin: 40px auto;
         border: 1px groove black;
