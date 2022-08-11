@@ -11,76 +11,36 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 </head>
 <body>
-    <nav>
+    <div>
         <div class="cabecera"> 
-            <img class="logo" src="../imagenes/Captura.PNG" alt="Logo">
-            <input class="buscador" type="search" name="buscar-producto" placeholder="Pan rallado, caldos,...">
-            <button class="boton">Buscar</button>
-            <p class="eslogan">Dar es dar!</p>
+            <a href="/index.html"><img class="logo" src="../imagenes/DISTRIBUIDORA.png" alt="Logo"></a>
+        </div> 
+    </div> 
+    <nav class="navbar navbar-expand-lg bg-light barra">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../pages/nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../pages/ofertas.html">Ofertas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Categorias</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../pages/contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <ul class="nav justify-content-center barra-nav">
-            <li class="nav-item">
-                <a class="nav-link" href="../index.html">INICIO</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="./nosotros.html">NOSOTROS</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">CATEGORIAS</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="./ofertas.html">OFERTAS</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="./contacto.html">CONTACTO</a>
-            </li>
-        </ul>
+    </nav>
     <header>
         <h1>¡NUESTROS PRODUCTOS!</h1>
-
-            <!--<div class="cantenedor">
-                <section id="menu1">
-                    <a href="#menu1">PASTAS SECAS</a>
-                    <p>Tirabuzon</p>
-                    <p>Mostachole</p>
-                    <p>Spaguetti</p>
-                    <p>Tallarin</p>
-                </section>
-            </div>
-
-            <div class="cantenedor">
-                <section id="menu2">
-                    <a href="#menu2">ADEREZOS EN BOLSA</a>
-                    <p>Barbacoa</p>
-                    <p>Ketchup</p>
-                    <p>Mayoensa</p>
-                    <p>Mostaza</p>
-                    <p>Salsa Golf</p>
-                </section>
-            </div>
-
-            <div class="cantenedor">
-                <section id="menu3">
-                    <a href="#menu3">FIAMBRES</a>
-                    <p>Panceta Ahumada</p>
-                    <p>Panceta Tiernizada</p>
-                    <p>Jamon Cocido</p>
-                    <p>Salame Milan</p>
-                    <p>Jamon Crudo</p>
-                    <p>Jamon Crudo Medio</p>
-                </section>
-            </div>
-
-            <div class="cantenedor">
-                <section id="menu4">
-                    <a href="#menu4">LACTEOS</a>
-                    <p>Leche Entera Larga Vida</p>
-                    <p>Manteca Butter</p>
-                    <p>Margarina</p>
-                    <p>Pilon Manteca</p>
-                    <p>Leche En Polvo</p>
-                </section>
-            </div>-->
             <div class="accordion accordion-flush" id="accordionFlushExample">
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="flush-headingOne">

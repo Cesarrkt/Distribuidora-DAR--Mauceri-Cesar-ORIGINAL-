@@ -8,28 +8,28 @@
 /*INDEX*/
 body{
     background-color: antiquewhite;
-    
+    background-image: url(../imagenes/225.png);
 }
 .cabecera{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-bottom:10px;
-    background: radial-gradient(circle, rgba(0,212,255,1) 19%, rgba(9,9,121,1) 82%, rgba(2,0,36,1) 100%);
+    background-image: url(../imagenes/225.png);
 }
 .logo{
-    width: 100px;
+    width: 200px;
 }
-.buscador{
-    border-radius: 1rem;
-    text-align: center;
-    display: inline-block;
-    
+p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: goldenrod;
 }
-.eslogan{
-    font-family: 'Cormorant SC', serif;
+.eslogan{font-family: 'Cormorant SC', serif;
     font-size: 40px;
     margin: 10px;
     padding: 20px;
-    display: inline-block;
-    color: goldenrod;
 }
 /*ul{
     text-align: center;
@@ -304,6 +304,7 @@ CATEGORIAS*/
         grid-template-rows: repeat(4, auto); /*establece tamaño en eje vertical*/
         grid-template-areas:
         "header"
+
         "main" 
         "aside" 
         "footer"
@@ -332,4 +333,21 @@ CATEGORIAS*/
     .text{
         width: 90%;
 
+    }
+    /*.slide{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height:900px;
+        width: 900px;
+    }
+    img{
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+    }*/
+    .barra{
+        display: block;
+        padding: 5px;
+        justify-content: space-between;
     }
